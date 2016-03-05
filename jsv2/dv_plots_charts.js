@@ -861,13 +861,13 @@ function type(d) {
             data: resp.data,
              marker: {
                 color: 'rgba(69,114,167,0.5)',
-                fillColor: {
+                fillColor: '#9c9ede' /*{
                     radialGradient: { cx: 0.4, cy: 0.3, r: 0.7 },
                     stops: [
                         [0, 'rgba(255,255,255,0.5)'],
                         [1, 'rgba(69,114,167,0.5)']
                     ]
-                }
+                }*/ 
             }
         }]
 
